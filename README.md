@@ -9,4 +9,3 @@ is a card. You also need to keep information about which positions in the table 
 and the number of cards still on the table. You can have other structures or fields that you useful for implementing the methods. Finally, you will have as a field and a variable of type Random the 
 which you will use to generate random numbers.
 
-Translated with www.DeepL.com/Translator (free version)
