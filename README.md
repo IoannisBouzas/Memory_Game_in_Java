@@ -1,1 +1,12 @@
 # Memory_Game_in_Java
+This game was the first assignment in my OOP course in the second semester of my computer science degree. For this exercise you will implement a program in Java that implements a simple version of the well-known memory board game. In this game there are 2*N cards that form N pairs of pictures. The cards are placed face down in a random order on the table. In each round each player turns over two of the cards. If the cards are identical the player collects the cards and wins a point. The cards are removed from the table. Otherwise the cards are closed and the next player continues. The game ends when all pairs have been found. The player who has accumulated the most points wins. In the simplified version that you will implement, instead of pairs of cards with pictures, we will have N pairs with numbers from 0 to N-1. Below, whenever we talk about "cards" we will mean the numbers 0...N-1. Each 
+number appears twice. The cards will be placed randomly on a line. The game will be played either between a human player and a computer player, or between two human players. In each round 
+the human player chooses the two cards to be turned over at the same time (i.e. he chooses the second card before turning over the first). The human player chooses two cards using a tactic described below. For your implementation you will need to create four classes. The Board class which holds 
+information about the "table" and the "cards". The ComputerPlayer class which implements the player's computer game. The HumanPlayer class that implements the human player's game. The MemoryGame class
+class that implements the game flow. Board: the most important class that holds information about the "cards" and the table. The cards-numbers. 
+are stored in random order in a one-dimensional integer table with 2*N positions, where N is the number of pairs. The table can be thought of as the arrangement of cards in a row, where each position 
+is a card. You also need to keep information about which positions in the table still contain cards and from which positions the cards have been removed. It will also be useful to keep the size of the table 
+and the number of cards still on the table. You can have other structures or fields that you useful for implementing the methods. Finally, you will have as a field and a variable of type Random the 
+which you will use to generate random numbers.
+
+Translated with www.DeepL.com/Translator (free version)
